@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 48px;
+    background-color: beige;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#player-1-section {
+    height: 100vh;
+    width: 50vw;
+    border-right: 6px solid black;
+}
+
+#main-score-1 {
+    border: 5px solid blue;
+    padding: 16px;
+    width: 100px;
+}
+
+#player-2-section {
+    height: 100vh;
+    width: 50vw;
+}
+
+#main-score-2 {
+    color: red;
+    border: 5px solid red;
+    padding: 16px;
+    width: 100px;
+}
+
+#btnRoll {
+    position: absolute;
+    top: 50vh;
+    right: 50vw;
+
+}
+
+#btnHold {
+    position: absolute;
+    top: 60vh;
+    right: 50vw;
+}
